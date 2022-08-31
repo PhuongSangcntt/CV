@@ -1,0 +1,49 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+    /* body {
+        display: none;
+    } */
+    #nav-bar {
+        text-align: center;
+        border-bottom: gray solid 1px;
+    }
+
+    
+
+    /* Thẻ <div> trong nav-bar ở giữa */
+    .div-navbar {
+        display: none;
+    }
+
+    /* Thẻ <div> trong nav-bar bên trái */
+    .div-navbar-left {
+        display: inline-block;
+        width: 100px;
+    }
+
+    /* Thẻ <div> trong nav-bar bên phải */
+    .div-navbar-right {
+        display: inline-block;
+        width: 100px;
+    }
+
+    /* phần chữ của target */
+    .text-target {
+        margin: 20px 5px 0 30px;
+    }
+
+    .text-personal-info {
+        margin: 20px 5px 0 30px;
+    }
+
+    /* job-info */
+    .job-info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    /* [class*="col-sm-"] {
+        width: 40%;
+    } */
+
+} 
+

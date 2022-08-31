@@ -1,0 +1,99 @@
+@media (max-width: 767px){
+
+    body {
+        width: 100%;
+    }
+
+    /* banner */
+    #banner {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .img-banner {
+        width: 100%;
+    }
+
+    #nav-bar {
+        /* margin-left: 45%; */
+        text-align: left;
+        border: none;
+    }
+
+    /* Thẻ <div> trong nav-bar ở giữa */
+    .div-navbar {
+        display: none;
+    }
+
+    /* Thẻ <div> trong nav-bar bên trái */
+    .div-navbar-left {
+        display: block;
+        width: 150px;
+        box-shadow: none;
+        padding: 5px;
+    }
+
+    /* Thẻ <div> trong nav-bar bên phải */
+    .div-navbar-right {
+        display: block;
+        width: 150px;
+        box-shadow: none;
+        padding: 5px;
+    }
+
+    /* chia đôi phần thông tin */
+    /* .about {
+        display: block;
+    } */
+
+     /* phần nền bên ngoài của terget */
+    #target {
+        margin-left: 10px;
+        width: 450px;
+    }
+
+
+    /* phần nền bên ngoài của personal-info */
+    #personal-info { 
+        margin-left: 10px;
+        width: 450px;
+    }
+
+    .job-info {
+        display: block;
+        width: 30%;
+    }
+
+    /* Chứng chỉ - giải thưởng */
+    .grid-cer {
+        display: block;
+        border-bottom:none;
+    }
+    
+    .web-funix {
+        border-right: none;
+        border-bottom:  orangered solid 1px;
+        width: 30%;
+    }
+
+    /* Dự án */
+    .text-project {
+        display: block;
+        width: 30%;
+        margin: 10px;
+    }
+
+    .div-year,
+    .div-funix,
+    .div-developer {
+        display: block;
+    }
+
+    /* footer */
+    .footer {
+        width: 40%;
+    }
+
+}
+
